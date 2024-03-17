@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Poppins','sans-serif';
+    text-decoration: none;
+    color:#2c4964;
+    
+    font-weight: bolder;  
+}
+
+header{
+   
+    
+   
+}
+
+.hero{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+    background-attachment: fixed;
+    height: 500px;
+    align-items: center;
+}
+.hero h1{
+    font-weight: bolder;
+    /* font-family:'Raleway','sans-serif'; */
+    color:#2c4964;
+}
+.hero a{
+    background-color: blue;
+    padding: 12px 35px;
+    margin: 30px 0px 0px;
+    
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px; */
+}
+.more-btn{
+    background-color: rgb(119, 119, 248);
+    text-decoration: none;
+    display: inline;
+    color: white;
+    padding: 12px;
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px; */
+}
+.s-2{
+    background: transparent;
+    padding:60px ;
+}
+.s-2 h3{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.heart{
+    color: white;
+    font-size:20px;
+
+}
+.hovereble:hover{
+    background-color: blue;
+    color: white;
+
+}
+.hovereble:hover div{
+    background-color: blue;
+    color: white;
+    
+}
+.hovereble:hover span{
+    background-color: white;
+    color: black;
+    
+}
+.hovereble:hover .shadow-heart{
+    background-color: white;
+    color: black;
+}
+.hovereble:hover .shadow-heart i{
+    color: blue;
+}
+.shadow-heart{
+    background-color: blue;
+    
+    border-radius: 5px;
+    border: 1px solid blue;
+    box-shadow: -8px -8px  rgba(154, 219, 249, 0.587) ;
+}
+
+#myTab a{
+    text-decoration: none;
+    color: black;
+}
+#myTab a :active{
+    text-decoration: none;
+    color: white;
+}
+
+
+.addr i{
+    font-size: large;
+    display: flex;
+    background-color: rgba(174, 241, 241, 0.675);
+    padding: 16px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.addr:hover i{
+    background-color: blue;
+    color: white;
+}
+.use-link ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.use-link a{
+    text-decoration: none;
+    color: black;
+}
+.use-link i{
+    color: rgb(52, 74, 245);
+}
+.use-link li{
+    margin-top: 10px;
+}
+
+.use-link a:hover{
+    color: blue;
+}
+
+.social a{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 10px;
+}
+.gal{
+    overflow: hidden;
+   
+}
+
+.gal img{
+    transition: 1s all ease-in-out;
+}
+
+.gal:hover img{
+    transform: scale(1.2);
+}
+
+.about-i:hover span{
+    background-color: blue;
+}
+.about-i:hover i{
+    color: white;
+}
